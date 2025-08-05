@@ -1,0 +1,35 @@
+
+h1,h3,h5 { 
+    color:#FBFBFF;
+    text-align: center;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif; /* Choose a classy serif font */
+  color: #F5F5F5; /* Off-white text color */
+  background-color: #0A0A0A; /* Dark, soft black background */
+}
+.social-icons,footer{
+    text-align:right;
+    color: #01BAEF;
+ }
+ div{
+    text-align: center;
+ }
+ .profile-pic{
+ border-radius: 50%;
+ height: 200px;
+  width: 200px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  text-align: center;
+
+ }
+ a{
+    color: #01BAEF;
+    text-decoration: none;
+ }
+.myclass{
+    text-align:left;
+    color: #01BAEF;
+}
