@@ -1,0 +1,116 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #050505;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: radial-gradient(circle, #111 0%, #050505 100%);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #01BAEF;
+    letter-spacing: 2px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #0c0c0c;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(1,186,239,0.1);
+}
+
+/* ===== PROFILE ===== */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 4px solid #01BAEF;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h2 {
+    margin: 10px 0 5px;
+    font-size: 1.8rem;
+}
+
+.profile p {
+    color: #aaa;
+}
+
+/* ===== HEADINGS ===== */
+h3 {
+    color: #01BAEF;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ===== LISTS ===== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 12px;
+    margin: 10px 0;
+    background: #111;
+    border-left: 4px solid #01BAEF;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #161616;
+    transform: translateX(6px);
+}
+
+/* ===== GOALS TEXT ===== */
+section p {
+    color: #bbb;
+    font-size: 1.05rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+    border-top: 2px solid #01BAEF;
+    margin-top: 60px;
+}
+
+footer p {
+    color: #666;
+    letter-spacing: 1px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #01BAEF;
+    border-radius: 10px;
+}

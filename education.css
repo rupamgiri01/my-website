@@ -1,0 +1,123 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #050505;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: radial-gradient(circle, #111 0%, #050505 100%);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #01BAEF;
+    letter-spacing: 2px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px;
+    background: #0c0c0c;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(1,186,239,0.1);
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 35px rgba(1,186,239,0.2);
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    color: #01BAEF;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    margin: 10px 0;
+    color: #fff;
+}
+
+h4 {
+    margin: 5px 0;
+    color: #aaa;
+    font-weight: 500;
+}
+
+h5 {
+    color: #01BAEF;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+/* ===== MARKS BOX ===== */
+.marks {
+    margin-top: 15px;
+    padding: 20px;
+    background: #111;
+    border-left: 4px solid #01BAEF;
+    border-radius: 8px;
+}
+
+/* ===== LIST STYLE ===== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin: 8px 0;
+    background: #161616;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #1f1f1f;
+    transform: translateX(6px);
+}
+
+/* ===== PARAGRAPHS ===== */
+p {
+    color: #bbb;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #000;
+    border-top: 2px solid #01BAEF;
+    margin-top: 60px;
+}
+
+footer p {
+    color: #666;
+    letter-spacing: 1px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #01BAEF;
+    border-radius: 10px;
+}
